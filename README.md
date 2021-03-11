@@ -4,15 +4,10 @@ This project analyzes the prediction of sales for food items sold at various sto
 
 Objectives:  
 1. Exploratory Data Analysis 
-   
-   -Data Cleaning 
-   
-   -Data Visualizations 
-   
+>Data Cleaning 
+>Data Visualizations  
 2. Build Machine Learning Models 
-  
-   -Random Forests 
-  
+>Random Forests 
 3. Provide Recommendations 
 
 
@@ -23,6 +18,7 @@ Data Cleaning
 
 Data Visaluizations
 >I came up with a few graphs that helped me better understand the data. 
+
 ![Picture1](https://user-images.githubusercontent.com/77766107/110861673-542cbc80-8273-11eb-81a6-c3dfbe2f7bf3.png)
 >This graphs shows the price range for the amount of outlet sales being done. There are higher bars in the really low price range meaning that most items are sold under $200.
 
@@ -44,9 +40,9 @@ Data Visaluizations
 ![Picture7](https://user-images.githubusercontent.com/77766107/110861750-6f97c780-8273-11eb-9a88-ad165c030c1c.png)
 >The top 3 highest sales of item types in Supermarket Type 3 are Breakfast, Fruits/Vegetables, and Dairy.
 
+Random Forest Model 
+>From the five different Machine Learning Models implemented, Random Forests produced the highest R^2 and the smallest RMSE. The higher the R^2 the better the model fits your data which is at 94%. A low RMSE score is beneficial to any model since it indicates better fit and suggests how precisely the model predicts a response. RMSE is a human interpretable metric because it is squared and gets it back into the original units that we can understand. The Testing RMSE is off by 1114. 43 dollars which is more than the MAE at 783.64 dollars. The reason being, RMSE penalizes being off by more larger data points through outliers. That is why RMSE is larger than MAE because this model has quite a few outliers that this data set is significantly off by.
+![Picture8](https://user-images.githubusercontent.com/77766107/110863239-3eb89200-8275-11eb-8628-ee75808d2bee.png)
 
-
-
-
-
-
+Recommendations
+> Overall let us consider the size of Grocery Stores and  Supermarkets. Grocery Stores operate at a much smaller scale than big outlets, hence they the lowest amount of sales. The top 4 highest sales of item types in Supermarket Type 4 are Breakfast, Fruits/Vegetables, Dairy, and Meat. These are the type of items most people are buying the most of. If you want to maximize your profits, I recommend opening a smaller store and focus on these items. This will fill the need of what most people are buying at the big supermarkets. For example, supermarkets like Walmart and Target have a wide range of items from household to beauty, but not every product is sold quickly and sits on the shelf for a while. By focusing just on produce with competitive prices, it is a one-stop-shop for people to get their groceries and you as the owner will have less hassle trying to sell every single item.
