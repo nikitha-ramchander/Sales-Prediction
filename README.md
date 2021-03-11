@@ -5,6 +5,7 @@ This project analyzes the prediction of sales for food items sold at various sto
 Objectives:  
 1. Exploratory Data Analysis 
 >Data Cleaning 
+
 >Data Visualizations  
 2. Build Machine Learning Models 
 >Random Forests 
@@ -41,7 +42,7 @@ Data Visualizations
 >The top 3 highest sales of item types in Supermarket Type 3 are Breakfast, Fruits/Vegetables, and Dairy.
 
 Random Forest Model 
->From the five different Machine Learning Models implemented, Random Forests produced the highest R^2 and the smallest RMSE. The higher the R^2 the better the model fits your data which is at 94%. A low RMSE score is beneficial to any model since it indicates better fit and suggests how precisely the model predicts a response. RMSE is a human interpretable metric because it is squared and gets it back into the original units that we can understand. The Testing RMSE is off by 1114. 43 dollars which is more than the MAE at 783.64 dollars. The reason being, RMSE penalizes being off by more larger data points through outliers. That is why RMSE is larger than MAE because this model has quite a few outliers that this data set is significantly off by.
+>From the five different Machine Learning Models implemented, Random Forests produced the highest R^2 and the smallest RMSE. The higher the R^2 the better the model fits your data which is at 94%. A low RMSE score is beneficial to any model since it indicates better fit and suggests how precisely the model predicts a response. RMSE is a human interpretable metric because it is squared and gets it back into the original units that we can understand. The Testing RMSE is off by 1114. 43 dollars which is more than the MAE at 783.64 dollars. The reason being, RMSE penalizes being off by more larger data points through outliers. That is why RMSE is larger than MAE because this model has quite a few outliers that this data set is significantly off by. From this graph you could tell these are the features that impacted this model. 
 ![Picture8](https://user-images.githubusercontent.com/77766107/110863239-3eb89200-8275-11eb-8628-ee75808d2bee.png)
 
 Recommendations
