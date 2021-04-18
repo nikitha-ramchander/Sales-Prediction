@@ -1,4 +1,4 @@
-# Sales Predictions Project 
+# Sales Predictions
 
 This project analyzes the prediction of sales for food items sold at various stores. The goal is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
 
